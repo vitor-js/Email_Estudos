@@ -7,7 +7,7 @@ class User extends Model {
             email:DataTypes.STRING,
             phone_number:DataTypes.STRING,
             password:DataTypes.STRING,
-            email_validade:DataTypes.INTEGER,
+            email_validate:DataTypes.INTEGER,
             two_factors_validate:DataTypes.INTEGER
         }, {
             sequelize
